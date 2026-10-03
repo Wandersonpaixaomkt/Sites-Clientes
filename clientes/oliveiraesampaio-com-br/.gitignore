@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# build / deploy output
+dist/
+.output/
+.vercel/
+.netlify/
+.nitro/
+.tanstack/
+.wrangler/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# grok sandbox (skills, traces, preview logs) — keep the auth flag
+.grok/*
+!.grok/app-env.json
+.project_id
+.node_modules.lock
+startup.sh
+
+# local / QA dumps — not part of the site
+screenshots/
+attachments/
+artifacts/
+
+# macOS / copy artifacts (exFAT / external SSD)
+.DS_Store
+._*
+Thumbs.db
+
+# logs & editor
+*.log
+npm-debug.log*
+.idea/
+.vscode/
+*.swp

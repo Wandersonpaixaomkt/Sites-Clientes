@@ -1,0 +1,41 @@
+meta:
+  ultima_revisao: 2026-08-31
+  status: dados_de_trabalho_a_confirmar_no_TSE
+
+historico:
+  - ano: 2020
+    cargo: vereadora
+    local: Parauapebas-PA
+    partido: MDB
+    numero: '15100'
+    resultado_indicado: suplente
+    votos_indicados: 769
+    fonte: pesquisa_consolidada_do_projeto
+  - ano: 2022
+    cargo: deputada estadual
+    local: Pará
+    partido: Republicanos
+    numero: '10800'
+    resultado_indicado: suplente_nao_eleita
+    votos_indicados: 4665
+    fonte: pesquisa_consolidada_do_projeto
+  - ano: 2024
+    cargo: vereadora
+    local: Parauapebas-PA
+    partido: AVANTE
+    numero: '70700'
+    resultado_indicado: suplente
+    votos_indicados: 1570
+    fonte: pesquisa_consolidada_do_projeto
+  - ano: 2026
+    cargo: deputada estadual
+    local: Pará
+    partido: AVANTE
+    numero: '70700'
+    resultado_indicado: candidatura_referenciada_como_em_analise
+    fonte: pesquisa_consolidada_do_projeto
+
+validacao_pendente:
+  - Situação atual do registro, partido, número e cargo no TSE.
+  - Votação oficial por município e eleição.
+  - Declaração de bens e CNPJ de campanha.

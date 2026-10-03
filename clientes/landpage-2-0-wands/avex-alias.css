@@ -1,0 +1,44 @@
+.hero-center {
+  position: relative;
+  z-index: 2;
+  max-width: 40rem;
+  margin-right: auto;
+  padding: 72px 0 88px;
+  text-align: left;
+}
+.hero-center h1 {
+  font-size: clamp(1.35rem, 4.2vw, 2.85rem);
+  text-wrap: unset;
+}
+@media (min-width: 768px) {
+  .hero-center {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    padding: 0 0 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .hero-center .kicker,
+  .hero-center h1,
+  .hero-center .lead,
+  .hero-center .trust {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+  .hero-center .cta-row {
+    justify-content: center;
+    gap: 14px;
+    margin: 0;
+  }
+  .hero-center .cta-row .btn {
+    opacity: 0;
+    min-width: 17.5rem;
+    min-height: 3.4rem;
+  }
+}
