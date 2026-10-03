@@ -1,0 +1,39 @@
+name: Importar projetos
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copiar projetos
+        run: |
+          set -e
+          U=Wandersonpaixaomkt
+          mkdir -p clientes
+          for item in \
+            "landpage-avex-wanderson:landpage-avex-wanderson" \
+            "ferramentas-avex:ferramentas-avex" \
+            "perfil-profissional-Ge:perfil-profissional-ge" \
+            "geaneKezia-:geanekezia" \
+            "NORTE_EM_FOCO_PORTAL_NOTICIAS:norte-em-foco-portal-noticias" \
+            "orkut-revival:orkut-revival" \
+            "newsy-portal-joy:newsy-portal-joy" \
+            "landpage-2.0-wands:landpage-2-0-wands" \
+            "ELEICOES2026-CANDIDATOS:eleicoes2026-candidatos" \
+            "oliveiraesampaio.com.br:oliveiraesampaio-com-br"; do
+            old="${item%%:*}"; new="${item##*:}"
+            git clone --depth 1 "https://github.com/$U/$old.git" "/tmp/$new"
+            rm -rf "/tmp/$new/.git"
+            mkdir -p "clientes/$new"
+            cp -a "/tmp/$new/." "clientes/$new/"
+          done
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add clientes
+          git commit -m "Importa 10 projetos para clientes/"
+          git push
