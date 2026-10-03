@@ -1,0 +1,49 @@
+{
+  "_framework-BEn8NJWW.js": {
+    "file": "sites/orkut-revival/_next/static/chunks/framework-BEn8NJWW.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-CTzVCDDG.js"
+    ]
+  },
+  "_rolldown-runtime-CTzVCDDG.js": {
+    "file": "sites/orkut-revival/_next/static/chunks/rolldown-runtime-CTzVCDDG.js",
+    "name": "rolldown-runtime"
+  },
+  "app/page.tsx": {
+    "file": "sites/orkut-revival/_next/static/chunks/page-BQt28S8w.js",
+    "name": "page",
+    "src": "app/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CTzVCDDG.js",
+      "_framework-BEn8NJWW.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "sites/orkut-revival/_next/static/chunks/layout-segment-context-CKCrCZUx.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CTzVCDDG.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BEn8NJWW.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "sites/orkut-revival/_next/static/chunks/index-b8Mv1T-0.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-CTzVCDDG.js",
+      "_framework-BEn8NJWW.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/page.tsx"
+    ]
+  }
+}

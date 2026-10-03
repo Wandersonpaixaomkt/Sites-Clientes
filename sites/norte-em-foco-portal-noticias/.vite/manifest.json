@@ -1,0 +1,169 @@
+{
+  "_app-elements-Dc9IjjnV.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/app-elements-Dc9IjjnV.js",
+    "name": "app-elements",
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_framework-2sPM6dVs.js",
+      "_hash-COKoj7q5.js",
+      "_record-DLmbe0pR.js"
+    ]
+  },
+  "_app-rsc-cache-busting-DX6Bqa0R.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/app-rsc-cache-busting-DX6Bqa0R.js",
+    "name": "app-rsc-cache-busting",
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_app-rsc-render-mode-CMBE9W_l.js",
+      "_headers-jKCjGm9v.js",
+      "_deployment-id-DEpVcpmA.js",
+      "_hash-COKoj7q5.js"
+    ]
+  },
+  "_app-rsc-render-mode-CMBE9W_l.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/app-rsc-render-mode-CMBE9W_l.js",
+    "name": "app-rsc-render-mode",
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js"
+    ]
+  },
+  "_deployment-id-DEpVcpmA.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/deployment-id-DEpVcpmA.js",
+    "name": "deployment-id"
+  },
+  "_framework-2sPM6dVs.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/framework-2sPM6dVs.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js"
+    ]
+  },
+  "_hash-COKoj7q5.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/hash-COKoj7q5.js",
+    "name": "hash"
+  },
+  "_headers-jKCjGm9v.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/headers-jKCjGm9v.js",
+    "name": "headers",
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_protocol-headers-BsHhATfy.js"
+    ]
+  },
+  "_navigation-errors-Cqt4Ylw4.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/navigation-errors-Cqt4Ylw4.js",
+    "name": "navigation-errors",
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_framework-2sPM6dVs.js"
+    ]
+  },
+  "_protocol-headers-BsHhATfy.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/protocol-headers-BsHhATfy.js",
+    "name": "protocol-headers"
+  },
+  "_query-DHtEPfiY.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/query-DHtEPfiY.js",
+    "name": "query"
+  },
+  "_record-DLmbe0pR.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/record-DLmbe0pR.js",
+    "name": "record"
+  },
+  "_rolldown-runtime-CK1I3je8.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/rolldown-runtime-CK1I3je8.js",
+    "name": "rolldown-runtime"
+  },
+  "app/admin/cms-ui.tsx": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/cms-ui-E2SzuUYw.js",
+    "name": "cms-ui",
+    "src": "app/admin/cms-ui.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_framework-2sPM6dVs.js",
+      "node_modules/vinext/dist/shims/link.js"
+    ]
+  },
+  "app/news-channel.tsx": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/news-channel-CW6w-Fpy.js",
+    "name": "news-channel",
+    "src": "app/news-channel.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_framework-2sPM6dVs.js",
+      "node_modules/vinext/dist/shims/link.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/internal/hybrid-client-route-owner.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/hybrid-client-route-owner-BVaoMuu_.js",
+    "name": "hybrid-client-route-owner",
+    "src": "node_modules/vinext/dist/shims/internal/hybrid-client-route-owner.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry",
+      "_protocol-headers-BsHhATfy.js",
+      "_query-DHtEPfiY.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/layout-segment-context-DetBTazN.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-2sPM6dVs.js",
+      "_navigation-errors-Cqt4Ylw4.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/link.js": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/link-J8Z0HE7C.js",
+    "name": "link",
+    "src": "node_modules/vinext/dist/shims/link.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-2sPM6dVs.js",
+      "_deployment-id-DEpVcpmA.js",
+      "_protocol-headers-BsHhATfy.js",
+      "_query-DHtEPfiY.js",
+      "_record-DLmbe0pR.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/internal/hybrid-client-route-owner.js",
+      "virtual:vinext-app-browser-entry",
+      "_app-elements-Dc9IjjnV.js",
+      "_app-rsc-cache-busting-DX6Bqa0R.js",
+      "_app-rsc-render-mode-CMBE9W_l.js",
+      "_headers-jKCjGm9v.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "sites/norte-em-foco-portal-noticias/_next/static/chunks/index-iB0eiXIf.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-CK1I3je8.js",
+      "_framework-2sPM6dVs.js",
+      "_app-elements-Dc9IjjnV.js",
+      "_app-rsc-cache-busting-DX6Bqa0R.js",
+      "_headers-jKCjGm9v.js",
+      "_navigation-errors-Cqt4Ylw4.js",
+      "_hash-COKoj7q5.js",
+      "_record-DLmbe0pR.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/internal/hybrid-client-route-owner.js",
+      "virtual:vinext-app-browser-entry",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/admin/cms-ui.tsx",
+      "node_modules/vinext/dist/shims/link.js",
+      "app/news-channel.tsx"
+    ]
+  }
+}
